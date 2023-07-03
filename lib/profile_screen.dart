@@ -147,6 +147,48 @@ class ProfileScreen extends StatelessWidget {
                     padding: EdgeInsets.all(20),
                     child: Row(
                       children: [
+                        Image.asset('assets/images/reset-password.png',width: 22,),
+                        SizedBox(width: 20,),
+                        Expanded(child: Text("Reset Password"),
+                        ),
+                        Icon(Icons.arrow_forward_ios)
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0,vertical: 10),
+                child: GestureDetector(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Colors.grey[100],
+                    ),
+                    padding: EdgeInsets.all(20),
+                    child: Row(
+                      children: [
+                        Image.asset('assets/images/privacy.png',width: 22,),
+                        SizedBox(width: 20,),
+                        Expanded(child: Text("Privacy & Policy"),
+                        ),
+                        Icon(Icons.arrow_forward_ios)
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20.0,vertical: 10),
+                child: GestureDetector(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Colors.grey[100],
+                    ),
+                    padding: EdgeInsets.all(20),
+                    child: Row(
+                      children: [
                         Image.asset('assets/images/logout.png',width: 22,),
                         SizedBox(width: 20,),
                         Expanded(child: Text("Log Out"),
@@ -157,7 +199,6 @@ class ProfileScreen extends StatelessWidget {
                   ),
                 ),
               ),
-
             ],
           ),
         ),
@@ -179,7 +220,7 @@ class ProfileScreen extends StatelessWidget {
             children: [
               IconButton(onPressed: null, icon: Icon(Icons.home,color: Colors.blue,size: 34,)
                 ,),
-              IconButton(onPressed: null, icon: Icon(Icons.drive_eta_rounded,color: Colors.blue,size: 34,)
+              IconButton(onPressed: null, icon: Icon(Icons.car_rental,color: Colors.blue,size: 34,)
                 ,),
               IconButton(onPressed: null, icon: Icon(Icons.chat_bubble,color: Colors.blue,size: 34,)
                 ,),
