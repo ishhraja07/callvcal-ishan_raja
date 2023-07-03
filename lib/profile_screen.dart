@@ -220,7 +220,7 @@ class ProfileScreen extends StatelessWidget {
             children: [
               IconButton(onPressed: null, icon: Icon(Icons.home,color: Colors.blue,size: 34,)
                 ,),
-              IconButton(onPressed: null, icon: Icon(Icons.car_rental,color: Colors.blue,size: 34,)
+              IconButton(onPressed: null, icon: Icon(Icons.car_crash_rounded,color: Colors.blue,size: 34,)
                 ,),
               IconButton(onPressed: null, icon: Icon(Icons.chat_bubble,color: Colors.blue,size: 34,)
                 ,),
