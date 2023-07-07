@@ -91,7 +91,7 @@ class _ProfilePageState extends State<ProfilePage> {
           TabBar(tabs: tabs),
           SizedBox(
             height: size.height,
-              child: TabBarView(children: tabBarviews))
+              child: TabBarView(children: tabBarviews)),
         ],
       ),
     ));

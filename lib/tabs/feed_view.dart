@@ -9,7 +9,7 @@ class FeedView extends StatelessWidget {
     return MasonryGridView.builder(
       itemCount: 10,
         physics: NeverScrollableScrollPhysics(),
-        gridDelegate: SliverSimpleGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2) , itemBuilder: (context,index)=>Image.asset(img[index]),
+        gridDelegate: SliverSimpleGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2) , itemBuilder: (context,index)=>Container(decoration: BoxDecoration(border: Border.all(width: 1,color: Colors.transparent)),child: Image.asset(img[index])),
 
     );
   }
